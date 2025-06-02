@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="logo-positivo.png" type="images/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Special Time - Panadería y repostería artesanal con los mejores ingredientes">
+  <title>Special Time | Panadería y Repostería Artesanal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <h1 class="logo">Special Time</h1>
+        <p class="slogan">Dulces momentos desde 2010</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#valores">Valores</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="social-header">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-logo">
+          <center><img src="logo-negativo.png" alt="Special Time Logo"></center>
+        </div>
+        <div class="hero-content">
+            <h2>Momentos Siempre Dulces</h2>
+            <p>Pan, pasteles y dulces con amor y tradición. En Special Time, cada visita es una experiencia acogedora llena de sabor.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn">Ver Menú</a>
+                <a href="#contacto" class="btn btn-outline">Reservaciones</a>
+            </div>
+        </div>
+    </section>
+
+  <section id="valores" class="valores-section">
+    <div class="container">
+      <h2>Nuestros Valores</h2>
+      <div class="valores-grid">
+        <div class="valor-card">
+          <i class="fas fa-heart"></i>
+          <h3>Compromiso</h3>
+          <p>Calidad garantizada en cada producto que sale de nuestro horno. Usamos solo ingredientes frescos y naturales.</p>
+        </div>
+        <div class="valor-card">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Innovación</h3>
+          <p>Cada mes creamos nuevas recetas para sorprender a nuestros clientes y satisfacer todos los gustos.</p>
+        </div>
+        <div class="valor-card">
+          <i class="fas fa-hands-helping"></i>
+          <h3>Cercanía</h3>
+          <p>Somos parte de la comunidad y nos esforzamos por crear un ambiente familiar y acogedor.</p>
+        </div>
+        <div class="valor-card">
+          <i class="fas fa-leaf"></i>
+          <h3>Sostenibilidad</h3>
+          <p>Nos comprometemos con el medio ambiente usando empaques biodegradables y productos locales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="destacados" class="destacados-section">
+    <div class="container">
+      <h2>Productos Destacados</h2>
+      <div class="destacados-grid">
+        <div class="destacado-card">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.ju-NnkLNiGOku9aQ9_TW9AHaHa&pid=Api&P=0&h=180/400x300?text=Pan+Integral" alt="Pan integral artesanal">
+          <div class="destacado-info">
+            <h3>Pan Integral Artesanal</h3>
+            <p>Hecho con harina 100% integral y semillas naturales. Perfecto para desayunos saludables.</p>
+            <span class="precio">$25 MXN</span>
+          </div>
+        </div>
+        <div class="destacado-card">
+          <img src="https://i1.wp.com/hornomx.com/wp-content/uploads/2016/12/carrot-cake-recipe-hornomx-FG.jpg?fit=867%2C867&ssl=1/400x300?text=Pastel+Zanahoria" alt="Pastel de zanahoria">
+          <div class="destacado-info">
+            <h3>Pastel de Zanahoria</h3>
+            <p>Nuestra especialidad con nueces y un delicioso frosting de queso crema.</p>
+            <span class="precio">$350 MXN</span>
+          </div>
+        </div>
+        <div class="destacado-card">
+          <img src="https://th.bing.com/th/id/OIP.sycalnRK56crFZXvUcabXwHaLH?rs=1&pid=ImgDetMain/400x300?text=Croissant+Almendra" alt="Croissant de almendra">
+          <div class="destacado-info">
+            <h3>Croissant de Almendra</h3>
+            <p>Hojaldre crujiente relleno de crema de almendras y decorado con azúcar glass.</p>
+            <span class="precio">$28 MXN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2>Menú de Especialidades</h2>
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-category="panes">Panes</button>
+        <button class="tab-btn" data-category="pasteles">Pasteles</button>
+        <button class="tab-btn" data-category="chocolates">Chocolates</button>
+        <button class="tab-btn" data-category="bebidas">Bebidas</button>
+        <button class="tab-btn" data-category="saludables">Saludables</button>
+      </div>
+
+      <!-- Panes -->
+      <div class="categoria-menu active" id="panes-cat">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://i.pinimg.com/originals/49/17/9e/49179efc2248cb4e56e83e184c7f2292.jpg" alt="Concha de vainilla">
+            <div class="menu-item-info">
+              <h4>Concha de Vainilla</h4>
+              <p>Pan dulce tradicional con cubierta de vainilla</p>
+              <span class="precio">$10 MXN</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://images.rappi.com.mx/products/979052698-1606486454877.jpg" alt="Cuernito de mantequilla">
+            <div class="menu-item-info">
+              <h4>Cuernito de Mantequilla</h4>
+              <p>Delicioso cuernito con mantequilla 100% natural</p>
+              <span class="precio">$12 MXN</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://www.gastrolabweb.com/u/fotografias/fotosnoticias/2021/10/12/20031.jpg" alt="Pan de elote">
+            <div class="menu-item-info">
+              <h4>Pan de Elote</h4>
+              <p>Especialidad de la casa con granos de elote fresco</p>
+              <span class="precio">$15 MXN</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pasteles -->
+      <div class="categoria-menu" id="pasteles-cat">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://primicias24.s3.amazonaws.com/public/uploads/2020/08/tarta-a-las-tres-leches-receta-sencilla.jpg" alt="Pastel tres leches">
+            <div class="menu-item-info">
+              <h4>Pastel Tres Leches</h4>
+              <p>Esponjoso pastel bañado en mezcla de tres leches</p>
+              <span class="precio">$280 MXN (mediano)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.qzgiT3EqSUZnV_xC_8fzoQHaEK&pid=Api&P=0&h=180" alt="Pastel de chocolate">
+            <div class="menu-item-info">
+              <h4>Pastel de Chocolate</h4>
+              <p>Delicioso pastel con capas de chocolate belga</p>
+              <span class="precio">$320 MXN (mediano)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://i1.wp.com/hornomx.com/wp-content/uploads/2016/12/carrot-cake-recipe-hornomx-FG.jpg?fit=867%2C867&ssl=1" alt="Pastel de zanahoria">
+            <div class="menu-item-info">
+              <h4>Pastel de Zanahoria</h4>
+              <p>Con nueces y frosting de queso crema</p>
+              <span class="precio">$350 MXN (mediano)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chocolates -->
+      <div class="categoria-menu" id="chocolates-cat">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://i.ytimg.com/vi/jrfbItyIe8o/maxresdefault.jpg" alt="Chocolate con fresa">
+            <div class="menu-item-info">
+              <h4>Chocolate Relleno de Fresa</h4>
+              <p>Chocolate oscuro relleno de crema de fresa natural</p>
+              <span class="precio">$40 MXN (100g)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://cdn.colombia.com/gastronomia/2012/02/02/trufas-al-cafe-3054.jpg" alt="Trufa de café">
+            <div class="menu-item-info">
+              <h4>Trufa de Café</h4>
+              <p>Exquisitas trufas con granos de café arábica</p>
+              <span class="precio">$45 MXN (4 piezas)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebidas -->
+      <div class="categoria-menu" id="bebidas-cat">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://www.cinemaburger.com/wp-content/uploads/2017/04/bebida-c-cafe.jpg" alt="Café americano">
+            <div class="menu-item-info">
+              <h4>Café Americano</h4>
+              <p>Café de grano 100% mexicano</p>
+              <span class="precio">$25 MXN (mediano)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://media.metrolatam.com/2018/02/13/chocolateportada660x550-1200x800.jpg" alt="Chocolate caliente">
+            <div class="menu-item-info">
+              <h4>Chocolate Caliente</h4>
+              <p>Chocolate artesanal con leche entera</p>
+              <span class="precio">$30 MXN (grande)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://www.clarin.com/img/2022/03/01/ceq4FUBv9_2000x1500__1.jpg" alt="Capuchino">
+            <div class="menu-item-info">
+              <h4>Capuchino</h4>
+              <p>Espresso con leche vaporizada y espuma</p>
+              <span class="precio">$35 MXN (grande)</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Saludables -->
+      <div class="categoria-menu" id="saludables-cat">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="http://1.bp.blogspot.com/-hkgjA2Ey8vs/UoIdUVrz23I/AAAAAAAAEIo/s3yV6WFJZ9w/s1600/galletas-avena-miel.jpg" alt="Galleta de avena">
+            <div class="menu-item-info">
+              <h4>Galleta de Avena</h4>
+              <p>Sin azúcar añadida, con miel y pasas</p>
+              <span class="precio">$18 MXN</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.ju-NnkLNiGOku9aQ9_TW9AHaHa&pid=Api&P=0&h=180/400x300?text=Pan+Integral" alt="Pan integral">
+            <div class="menu-item-info">
+              <h4>Pan Integral</h4>
+              <p>Con semillas de girasol y linaza</p>
+              <span class="precio">$45 MXN</span>
+              <button class="btn-add">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Nuestra Historia</h2>
+          <p>Special Time nació en 2010 como un pequeño sueño familiar. Hoy seguimos manteniendo la misma pasión por la repostería artesanal que nos caracteriza.</p>
+          <p>Usamos técnicas tradicionales combinadas con ingredientes de la más alta calidad para ofrecer productos únicos que deleitan a nuestros clientes.</p>
+          <a href="#contacto" class="btn">Conócenos</a>
+        </div>
+        <div class="about-image">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1994.028587901346!2d-92.79714749270383!3d18.391183824232193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e1!4m0!4m3!3m2!1d18.391079264225095!2d-92.79597215546676!5e0!3m2!1ses-419!2smx!4v1748440195784!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Contacto</h2>
+          <p><i class="fas fa-envelope"></i> panaderiast01@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +52 913 126 4267</p>
+          <p><i class="fas fa-map-marker-alt"></i> Entrada el Lechugal S/N</p>
+          <div class="social-contact">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <h3>Horario</h3>
+          <p>Lunes a Viernes: 7:00 - 20:00</p>
+          <p>Sábado y Domingo: 8:00 - 18:00</p>
+        </div>
+        <div class="contact-form">
+          <form id="formulario-contacto">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono">
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>Special Time</h3>
+          <p>Panadería y repostería artesanal comprometida con la calidad y el sabor tradicional.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit" class="btn">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Special Time. Todos los derechos reservados.</p>
+        <div class="footer-payments">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-paypal"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
